@@ -2,6 +2,7 @@
 Commands for Git and GitHub
 
 Git - "Version Control System" that helps to track changes in code.
+
 Two main purposes of Git and GitHub are:
     1. Track the History
     2. Collaborate
