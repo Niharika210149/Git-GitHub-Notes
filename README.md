@@ -38,3 +38,7 @@ Commit - it is the record of change.
 Push - upload local repo content onto remote repo.
     git push origin main 
 
+Init - used to create a new git repo
+    ls -a # check the hidden files of a git repo
+    git init # initializes empty git repository in present working directory
+    git remote add origin <-link->
