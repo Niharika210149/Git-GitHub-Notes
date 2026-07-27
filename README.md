@@ -15,26 +15,26 @@ Configuring Git:
     git config --global user.name "My Name"
     git config --global user.email "someone@gmail.com"
 
-Clone - clone a repository on our local machine # remote[GitHub] to local[PC]
+Clone - clone a repository on our local machine. # remote[GitHub] to local[PC]
     git clone <link>
     
-Status - displays the state of the code
+Status - displays the state of the code.
     git status
     
-Untracked - new files that git doesn't yet track
+Untracked - new files that git doesn't yet track.
 
-Modified - changed
+Modified - changed.
 
-Staged - file is ready to be commited
+Staged - file is ready to be commited.
 
-Unmodified - unchanged
+Unmodified - unchanged.
 
-Add - adds new or changed in your working directory to the git staging area
+Add - adds new or changed in your working directory to the git staging area.
     git add <file-name> or git add .
 
-Commit - it is the record of change
+Commit - it is the record of change.
     git commit -m "some message"
 
-Push - upload local repo content onto remote repo
+Push - upload local repo content onto remote repo.
     git push origin main 
 
