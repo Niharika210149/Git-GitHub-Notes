@@ -9,14 +9,14 @@ Two main purposes of Git and GitHub are:
     
 GitHub - website that allows developers to store and manage their codes using Git.
 
-git --version # gives the current version of git on your system
+git --version     # gives the current version of git on your system
 
 Configuring Git:
     git config --global user.name "My Name"
     git config --global user.email "someone@gmail.com"
 
-Clone - clone a repository on our local machine. # remote[GitHub] to local[PC]
-    git clone <link>
+Clone - clone a repository on our local machine.     # remote[GitHub] to local[PC]
+    git clone <-link->
     
 Status - displays the state of the code.
     git status
@@ -30,7 +30,7 @@ Staged - file is ready to be commited.
 Unmodified - unchanged.
 
 Add - adds new or changed in your working directory to the git staging area.
-    git add <file-name> or git add .
+    git add <-file-name-> or git add .
 
 Commit - it is the record of change.
     git commit -m "some message"
@@ -39,6 +39,11 @@ Push - upload local repo content onto remote repo.
     git push origin main 
 
 Init - used to create a new git repo
-    ls -a # check the hidden files of a git repo
-    git init # initializes empty git repository in present working directory
-    git remote add origin <-link->
+    ls -a     # check the hidden files of a git repo
+    git init     # initializes empty git repository in present working directory
+    git remote add origin <-link->     # adds the remote (github repo)
+    git remote -v     # to verify the remote
+    git branch     # to check the branch we are working on
+    git branch -M main     # to rename the branch
+    
+    
